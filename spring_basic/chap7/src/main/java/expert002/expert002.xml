@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd">
+
+<bean id = "tire" class="expert002.KoreaTire"></bean>
+<bean id = "americaTire" class="expert002.AmericaTire"></bean>
+<bean id = "car" class="expert002.Car"></bean>
+<!-- 클래스를 id이름으로 진열해 놓고 getBean구매하여 사용할 수 있다 -->
+</beans>
